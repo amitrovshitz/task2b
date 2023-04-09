@@ -1,19 +1,9 @@
 #include <string>
 #include "player.hpp"
 using namespace std;
-using namespace ariel;
-
-Player::Player(std:: string name)
+namespace ariel
 {
-    this->playername = name;
-}
 
-int Player::stacksize()
-{
-    return 0;
-}
+    Player::Player(string name): playername(name), play(false), win(0){}
 
-int Player::cardesTaken()
-{
-    return 0;
 }
