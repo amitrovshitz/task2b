@@ -101,7 +101,7 @@ using namespace std;
         cout << "amout of draws: " << draws << endl;
         cout << "number of wins: " << player1.getWin() << endl;        
         cout << "win rate: " << ((double)player1.getWin()/turn)*100. << "%" << endl;
-
+        
         cout << "========================" << endl;
 
         cout << "player " << player2.getName() << " stats:" << endl;
